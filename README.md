@@ -24,7 +24,7 @@ This is a tiny API server that serves up some data about countries and continent
 
 Start the server with:
 ```bash
-npm start
+node index.js
 ```
 
 The server will run at `http://127.0.0.1:8000/`
