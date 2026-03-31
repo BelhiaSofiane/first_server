@@ -14,11 +14,8 @@ This is a tiny API server that serves up some data about countries and continent
 ### Installation
 
 1. Clone or download this project
-2. Navigate to the project folder:
-   ```bash
-   cd Agent
-   ```
-3. Install dependencies:
+
+2. Install dependencies:
    ```bash
    npm install
    ```
