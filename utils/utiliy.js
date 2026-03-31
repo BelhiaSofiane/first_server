@@ -7,9 +7,6 @@ export const sendJSONResponse = (res, statusCode, payload) => {
     res.end(JSON.stringify(payload))
 }
 
-
-// generate me a better name as a comment
-
 export const  getDataByPathParams = (data, locationType, locationName) => {
     return data.filter((item) => {
       return item[locationType].toLowerCase() === locationName.toLowerCase();
